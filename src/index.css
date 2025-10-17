@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+@tailwind utilities;
+
+@theme {
+  --font-playwrite: "Playwrite DE SAS", cursive;
+  --font-bodoni: "Bodoni Moda SC", serif;
+
+  --color-primary-01: #5b4636;
+  --color-primary-02: #e7e2db;
+  --color-primary-03: gray-800;
+}
+
+@layer utilities {
+  .font-playwrite {
+    font-family: var(--font-playwrite);
+  }
+  .font-bodoni {
+    font-family: var(--font-bodoni);
+  }
+
+  .bg-motif {
+    background-image: url("./assets/motif2.webp");
+    background-size: contain;
+    background-position: center;
+  }
+}
