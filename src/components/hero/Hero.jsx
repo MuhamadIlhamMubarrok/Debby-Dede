@@ -2,7 +2,7 @@ import { motion as Motion, useAnimation } from "framer-motion";
 import { useEffect, useRef } from "react";
 import { useInView } from "react-intersection-observer";
 import wayang from "../../assets/wayang.webp";
-import fotoMempelai from "../../assets/galeri/gambar3.webp";
+import fotoMempelai from "../../assets/galeri/gambar4.webp";
 
 const Hero = () => {
   const controls = useAnimation();
@@ -52,7 +52,7 @@ const Hero = () => {
         </Motion.h2>
 
         <Motion.h2 variants={fadeScale} transition={{ delay: 0.4 }} className="text-5xl font-playwrite mb-2 text-primary-01">
-          Debby & Dede
+          Debby & Astuti
         </Motion.h2>
 
         <Motion.p variants={fadeUp} transition={{ delay: 0.6 }} className="font-bodoni text-2xl">
