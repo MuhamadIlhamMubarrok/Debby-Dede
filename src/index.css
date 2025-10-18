@@ -3,8 +3,9 @@
 @tailwind utilities;
 
 @theme {
-  --font-playwrite: "Playwrite DE SAS", cursive;
+  --font-playwrite: "Alex Brush", cursive;
   --font-bodoni: "Bodoni Moda SC", serif;
+  --font-poppins: "Poppins", serif;
 
   --color-primary-01: #5b4636;
   --color-primary-02: #e7e2db;
@@ -17,6 +18,9 @@
   }
   .font-bodoni {
     font-family: var(--font-bodoni);
+  }
+  .font-poppins {
+    font-family: var(--font-poppins);
   }
 
   .bg-motif {

@@ -81,12 +81,12 @@ const Cover = ({ onOpen }) => {
 
       {/* === KONTEN UTAMA === */}
       <div className="relative z-10 text-[#5b4636]">
-        <Motion.h1 initial={{ opacity: 0, y: -50 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 1, ease: "easeOut" }} className="text-5xl md:text-6xl font-playwrite mb-4 tracking-wide drop-shadow-md">
+        <Motion.h1 initial={{ opacity: 0, y: -50 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 1, ease: "easeOut" }} className="text-2xl md:text-6xl font-bodoni tracking-wide drop-shadow-md">
           Undangan Pernikahan
         </Motion.h1>
 
-        <Motion.p initial={{ opacity: 0, y: 40 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.3, duration: 1, ease: "easeOut" }} className="font-bodoni text-2xl md:text-3xl mb-10">
-          Fatra & Fitri
+        <Motion.p initial={{ opacity: 0, y: 40 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.3, duration: 1, ease: "easeOut" }} className="font-playwrite text-6xl md:text-3xl mb-4">
+          Debby & Dede
         </Motion.p>
 
         <Motion.button
@@ -98,7 +98,7 @@ const Cover = ({ onOpen }) => {
             boxShadow: "0 0 25px rgba(140, 122, 111, 0.5)",
           }}
           transition={{ delay: 0.6, duration: 0.6, ease: "easeOut" }}
-          className="px-8 py-3  bg-gradient-to-r from-primary-01 font-playwrite to-primary-02 hover:from-primary-02 hover:to-primary-0 text-white rounded-full shadow-md text-lg font-semibold hover:scale-105 transition-all duration-300"
+          className="px-4 py-2  bg-gradient-to-r from-primary-01 font-poppins font-thin to-primary-02 hover:from-primary-02 hover:to-primary-0 text-white rounded-full shadow-md text-[14px] font-semibold hover:scale-105 transition-all duration-300"
         >
           Buka Undangan
         </Motion.button>

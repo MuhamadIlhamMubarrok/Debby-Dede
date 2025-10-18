@@ -21,7 +21,7 @@ const Penutup = () => {
   }, [inView, controls]);
 
   return (
-    <Motion.section ref={ref} initial={{ opacity: 0, y: 80 }} animate={controls} transition={{ duration: 1.2, ease: "easeOut" }} className="relative bg-primary-02 text-white py-28 px-6 text-center overflow-hidden">
+    <Motion.section ref={ref} initial={{ opacity: 0, y: 80 }} animate={controls} transition={{ duration: 1.2, ease: "easeOut" }} className="relative bg-primary-02 text-white py-24 px-4 text-center overflow-hidden">
       {/* === Motif & Dekorasi Background === */}
       <div className="absolute inset-0 opacity-15 bg-motif pointer-events-none" />
       <Motion.img

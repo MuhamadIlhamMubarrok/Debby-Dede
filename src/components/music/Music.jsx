@@ -40,7 +40,7 @@ const Music = () => {
         initial={{ scale: 0, opacity: 0 }}
         animate={{ scale: 1, opacity: 1 }}
         transition={{ duration: 0.5, ease: "easeOut" }}
-        className="fixed bottom-5 right-5 z-[120] bg-white/30 backdrop-blur-md border border-white/50 rounded-full shadow-lg p-4 text-primary-01 hover:bg-white/60 transition-all duration-300"
+        className="fixed bottom-20 right-5 z-[120] bg-white/30 backdrop-blur-md border border-white/50 rounded-full shadow-lg p-4 text-primary-01 hover:bg-white/60 transition-all duration-300"
       >
         {isPlaying ? (
           <Motion.div animate={{ rotate: 360 }} transition={{ repeat: Infinity, duration: 4, ease: "linear" }}>

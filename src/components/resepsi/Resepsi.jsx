@@ -45,7 +45,7 @@ const Resepsi = () => {
   }, [inView, controls]);
 
   return (
-    <Motion.section ref={ref} initial={{ opacity: 0, y: 50 }} animate={controls} id="lokasi" className="relative flex items-center justify-center text-center bg-primary-02 min-h-screen px-6 overflow-hidden">
+    <Motion.section ref={ref} initial={{ opacity: 0, y: 50 }} animate={controls} id="lokasi" className="relative flex items-center justify-center text-center px-4 py-24 bg-primary-02 min-h-screen overflow-hidden">
       {/* Layer 2: Foto Mempelai */}
       <img src={fotoResepsi} alt="Mempelai" className="absolute left-1/2 -translate-x-1/2 min-w-screen min-h-screen opacity-50 pointer-events-none select-none" />
       {/* === BUNGA KIRI === */}
@@ -55,7 +55,7 @@ const Resepsi = () => {
         initial={{ scale: 0.8, opacity: 0, y: 50 }}
         animate={{ scale: 1, opacity: 1, y: 0 }}
         transition={{ delay: 0.5, duration: 1.2, ease: "easeOut" }}
-        className="absolute bottom-[-40px] left-[-80px] w-72 md:w-80 pointer-events-none select-none"
+        className="absolute z-20 bottom-[-40px] left-[-80px] w-72 md:w-80 pointer-events-none select-none"
       />
       <Motion.img
         src={Bunga1}
@@ -73,7 +73,7 @@ const Resepsi = () => {
         initial={{ scale: 0.8, opacity: 0, y: 50 }}
         animate={{ scale: 1, opacity: 1, y: 0 }}
         transition={{ delay: 0.8, duration: 1.2, ease: "easeOut" }}
-        className="absolute bottom-[-40px] right-[-80px] w-72 md:w-80 pointer-events-none select-none rotate-[15deg] scale-x-[-1]"
+        className="absolute z-20 bottom-[-40px] right-[-80px] w-72 md:w-80 pointer-events-none select-none rotate-[15deg] scale-x-[-1]"
       />
       <Motion.img
         src={Bunga1}
@@ -85,7 +85,7 @@ const Resepsi = () => {
       />
 
       {/* Layer 3: Konten */}
-      <div className="relative z-10 text-white bg-gray-800/30 border border-primary-01/50 p-10 md:p-14 pt-30 rounded-t-full max-w-3xl shadow-2xl">
+      <div className="relative z-10 px-4 py-24 text-white bg-gray-800/30 backdrop-blur-[4px] border border-primary-01/50 p-10 md:p-14 pt-30 rounded-t-full max-w-3xl shadow-2xl">
         {/* Judul */}
         <Motion.h2 initial={{ opacity: 0, y: -30 }} animate={controls} transition={{ delay: 0.2, duration: 0.8 }} className="text-4xl md:text-5xl font-bodoni mb-10 text-primary-01 drop-shadow-lg">
           Resepsi
@@ -93,9 +93,9 @@ const Resepsi = () => {
 
         {/* Detail Resepsi */}
         <Motion.div initial={{ opacity: 0, y: 30 }} animate={controls} transition={{ delay: 0.4, duration: 1 }} className="space-y-3 font-playwrite">
-          <p className="text-xl md:text-2xl text-white/90">Minggu, 02 November 2025</p>
+          <p className="text-2xl text-white/90">Minggu, 02 November 2025</p>
           <p className="text-lg md:text-xl text-white/80">10.00 - 16.00 WIB</p>
-          <p className="text-white/70 text-base md:text-lg">Kp. Babakan Tugu Rt/Rw: 14/05 Desa. Sindang Panon Kec. Bojong Kab. Purwakarta, Jawa Barat</p>
+          <p className="text-white/70 font-poppins font-thin text-base md:text-lg">Kp. Babakan Tugu Rt/Rw: 14/05 Desa. Sindang Panon Kec. Bojong Kab. Purwakarta, Jawa Barat</p>
         </Motion.div>
 
         {/* Button Buka Maps */}
@@ -104,14 +104,14 @@ const Resepsi = () => {
             href="https://maps.app.goo.gl/DaKLV8PoJbDSD3aC6"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-block font-playwrite bg-gradient-to-r from-primary-01 to-primary-02 hover:from-primary-02 hover:to-primary-01 text-white px-8 py-3 rounded-full font-semibold text-lg shadow-md hover:scale-105 active:scale-95 transition-transform duration-300"
+            className="inline-block font-poppins font-thin bg-gradient-to-r from-primary-01 to-primary-02 hover:from-primary-02 hover:to-primary-01 text-white px-6 py-2 rounded-full font-semibold text-sm shadow-md hover:scale-105 active:scale-95 transition-transform duration-300"
           >
             Buka Maps
           </a>
         </Motion.div>
 
         {/* Hitung Mundur */}
-        <Motion.div initial={{ opacity: 0, y: 30 }} animate={controls} transition={{ delay: 0.8, duration: 1 }} className="mt-10 flex justify-center gap-5 md:gap-8 text-center">
+        <Motion.div initial={{ opacity: 0, y: 30 }} animate={controls} transition={{ delay: 0.8, duration: 1 }} className="mt-10 flex font-poppins justify-center gap-5 md:gap-8 text-center">
           {["Hari", "Jam", "Menit", "Detik"].map((label, i) => {
             const keys = ["days", "hours", "minutes", "seconds"];
             return (

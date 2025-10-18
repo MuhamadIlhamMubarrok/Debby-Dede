@@ -59,8 +59,8 @@ const Mempelai = () => {
           {/* Mempelai Pria */}
           <Motion.div initial={{ opacity: 0, y: 30 }} animate={controls} transition={{ delay: 0.4, duration: 1 }} className="flex flex-col items-center">
             <img src={fotoPria} alt="Mempelai Pria" className="w-48 h-48 md:w-64 md:h-64 object-cover rounded-full border-4 border-primary-01/50 shadow-lg mb-5" />
-            <h3 className="text-2xl md:text-3xl font-playwrite text-primary-01">Debby Pangestu Haryanto S.T</h3>
-            <p className="text-white/80 font-bodoni mt-1">Putra Pertama dari Bapak Tri Haryanto dan Ibu Tri Paryani</p>
+            <h3 className="text-4xl md:text-3xl font-playwrite text-primary-01">Debby Pangestu Haryanto S.T</h3>
+            <p className="text-white/80 font-poppins text-[13px] font-thin mt-1">Putra Pertama dari Bapak Tri Haryanto dan Ibu Tri Paryani</p>
           </Motion.div>
 
           {/* Simbol "&" */}
@@ -71,13 +71,13 @@ const Mempelai = () => {
           {/* Mempelai Wanita */}
           <Motion.div initial={{ opacity: 0, y: 30 }} animate={controls} transition={{ delay: 0.8, duration: 1 }} className="flex flex-col items-center">
             <img src={fotoWanita} alt="Mempelai Wanita" className="w-48 h-48 md:w-64 md:h-64 object-cover rounded-full border-4 border-primary-01/50 shadow-lg mb-5" />
-            <h3 className="text-2xl md:text-3xl font-playwrite text-primary-01">Dede Astuti S.T</h3>
-            <p className="text-white/80 font-bodoni mt-1">Putri ke 2 dari Bapak Bono dan Ibu Enung Halimah</p>
+            <h3 className="text-4xl md:text-3xl font-playwrite text-primary-01">Dede Astuti S.T</h3>
+            <p className="text-white/80 font-poppins text-[13px] font-thin mt-1">Putri ke 2 dari Bapak Bono dan Ibu Enung Halimah</p>
           </Motion.div>
         </div>
 
         {/* Kutipan */}
-        <Motion.p initial={{ opacity: 0, y: 30 }} animate={controls} transition={{ delay: 1.2, duration: 1 }} className="mt-14 text-lg md:text-xl font-playwrite text-white/90 max-w-2xl mx-auto leading-relaxed">
+        <Motion.p initial={{ opacity: 0, y: 30 }} animate={controls} transition={{ delay: 1.2, duration: 1 }} className="mt-14 text-md font-poppins font-thin text-white/90 max-w-2xl mx-auto leading-relaxed">
           “Dan di antara tanda-tanda kebesaran-Nya ialah Dia menciptakan untukmu pasangan hidup agar kamu hidup tenteram bersamanya.”
         </Motion.p>
       </div>
