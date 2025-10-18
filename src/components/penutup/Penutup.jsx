@@ -63,7 +63,7 @@ const Penutup = () => {
       {/* === Konten utama === */}
       <div className="relative z-10 bg-gray-800/20 backdrop-blur-xl border border-primary-01/50 rounded-3xl shadow-2xl p-10 md:p-14 max-w-4xl mx-auto">
         {/* Judul */}
-        <Motion.h2 initial={{ opacity: 0, y: -20 }} animate={controls} transition={{ delay: 0.2, duration: 0.8 }} className="text-4xl md:text-5xl font-playwrite text-primary-01 mb-10">
+        <Motion.h2 initial={{ opacity: 0, y: -20 }} animate={controls} transition={{ delay: 0.2, duration: 0.8 }} className="text-5xl font-playwrite text-primary-01 mb-10">
           Terima Kasih
         </Motion.h2>
 
@@ -82,7 +82,7 @@ const Penutup = () => {
                 className="absolute -bottom-5 -right-5 w-24 rotate-[15deg] pointer-events-none"
               />
             </div>
-            <p className="text-primary-01 mt-4 text-lg font-playwrite">Dede Astuti</p>
+            <p className="text-primary-01 mt-4 text-3xl font-playwrite">Dede Astuti</p>
           </Motion.div>
 
           {/* Simbol & */}
@@ -103,12 +103,12 @@ const Penutup = () => {
                 className="absolute -bottom-5 -left-5 w-24 rotate-[-15deg] pointer-events-none"
               />
             </div>
-            <p className="text-primary-01 mt-4 text-lg font-playwrite">Debby Pangestu Haryanto</p>
+            <p className="text-primary-01 mt-4 text-3xl font-playwrite">Debby Pangestu Haryanto</p>
           </Motion.div>
         </div>
 
         {/* Ucapan Penutup */}
-        <Motion.p initial={{ opacity: 0, y: 20 }} animate={controls} transition={{ delay: 1.2, duration: 1 }} className="text-white/90 font-bodoni text-lg md:text-xl max-w-2xl mx-auto leading-relaxed">
+        <Motion.p initial={{ opacity: 0, y: 20 }} animate={controls} transition={{ delay: 1.2, duration: 1 }} className="text-white/90 font-poppins font-thin text-lg md:text-xl max-w-2xl mx-auto leading-relaxed">
           Dengan penuh rasa syukur dan bahagia, kami mengucapkan terima kasih atas kehadiran, doa, dan restu yang telah diberikan. Semoga Tuhan membalas segala kebaikan Bapak/Ibu/Saudara/i dengan limpahan rahmat dan kebahagiaan.
         </Motion.p>
 
