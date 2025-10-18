@@ -28,4 +28,9 @@
     background-size: contain;
     background-position: center;
   }
+  .bg-motif2 {
+    background-image: url("./assets/galeri/gambar3.webp");
+    background-size: contain;
+    background-position: center;
+  }
 }

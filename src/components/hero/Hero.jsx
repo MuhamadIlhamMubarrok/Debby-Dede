@@ -56,7 +56,7 @@ const Hero = () => {
         </Motion.h2>
 
         <Motion.p variants={fadeUp} transition={{ delay: 0.6 }} className="font-bodoni text-2xl">
-          25 . 09 . 2025
+          02 . 11 . 2025
         </Motion.p>
       </div>
 

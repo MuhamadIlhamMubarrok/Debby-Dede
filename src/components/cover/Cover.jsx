@@ -7,7 +7,7 @@ const Cover = ({ onOpen }) => {
   return (
     <div className="absolute inset-0 flex flex-col justify-center items-center text-center z-110 bg-[#f3ece4] overflow-hidden">
       {/* === MOTIF BACKGROUND === */}
-      <div className="absolute inset-0 opacity-20 bg-motif" />
+      <div className="absolute inset-0 opacity-20 bg-motif2" />
 
       {/* === EFEK CAHAYA LEMBUT === */}
       <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-b from-[#ffffff20] via-transparent to-[#cdb8a840] mix-blend-soft-light pointer-events-none" />
