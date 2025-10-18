@@ -20,7 +20,7 @@ const GiftSection = () => {
   return (
     <Motion.section ref={ref} initial={{ opacity: 0, y: 80 }} animate={controls} transition={{ duration: 1.2, ease: "easeOut" }} className="relative bg-primary-02 text-white py-24 px-4 text-center overflow-hidden min-h-screen">
       {/* === Background motif lembut === */}
-      <div className="absolute inset-0 opacity-[0.08] bg-[url('/motif-pattern.png')] bg-repeat pointer-events-none" />
+      <div className="absolute inset-0 opacity-[0.08] bg-motif bg-repeat pointer-events-none" />
 
       {/* === Ornamen bunga === */}
       <Motion.img
@@ -72,10 +72,6 @@ const GiftSection = () => {
               <p className="text-white/85 mb-1 text-sm">{data.bank}</p>
               <p className="text-lg sm:text-xl tracking-wider mb-3">{data.norek}</p>
 
-              {/* Tombol salin */}
-              <button onClick={() => navigator.clipboard.writeText(data.norek)} className="text-xs sm:text-sm text-primary-01 underline hover:text-primary-02 transition-colors duration-300">
-                Salin Nomor Rekening
-              </button>
             </Motion.div>
           ))}
         </div>
