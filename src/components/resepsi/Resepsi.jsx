@@ -94,7 +94,7 @@ const Resepsi = () => {
         {/* Detail Resepsi */}
         <Motion.div initial={{ opacity: 0, y: 30 }} animate={controls} transition={{ delay: 0.4, duration: 1 }} className="space-y-3 font-playwrite">
           <p className="text-2xl text-white/90">Minggu, 02 November 2025</p>
-          <p className="text-lg md:text-xl text-white/80">10.00 - 16.00 WIB</p>
+          <p className="text-lg md:text-xl text-white/80">10.00 - Selesai</p>
           <p className="text-white/70 font-poppins font-thin text-base md:text-lg">Kp. Babakan Tugu Rt/Rw: 14/05 Desa. Sindang Panon Kec. Bojong Kab. Purwakarta, Jawa Barat</p>
         </Motion.div>
 
