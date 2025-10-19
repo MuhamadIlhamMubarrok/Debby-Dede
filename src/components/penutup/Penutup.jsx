@@ -6,7 +6,7 @@ import bungaKanan from "../../assets/bunga1.webp";
 import burung from "../../assets/burung.webp";
 import wayang from "../../assets/wayang.webp";
 import fotoPria from "../../assets/galeri/pria.png";
-import fotoWanita from "../../assets/galeri/wanita.png";
+import fotoWanita from "../../assets/galeri/wanita.jpg";
 
 const Penutup = () => {
   const controls = useAnimation();

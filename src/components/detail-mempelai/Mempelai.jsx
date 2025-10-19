@@ -2,7 +2,7 @@ import { motion as Motion, useAnimation } from "framer-motion";
 import { useEffect } from "react";
 import { useInView } from "react-intersection-observer";
 import fotoPria from "../../assets/galeri/pria.png";
-import fotoWanita from "../../assets/galeri/wanita.png";
+import fotoWanita from "../../assets/galeri/wanita.jpg";
 import bungaKiri from "../../assets/bunga1.webp";
 import bungaKanan from "../../assets/bunga1.webp";
 
